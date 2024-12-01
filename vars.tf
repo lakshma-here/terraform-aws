@@ -26,11 +26,6 @@ variable "rt_cidr" {
     default = "0.0.0.0/0"
 }
 
-variable "subnet_id" {
-    description = "subnet id"
-    type = map(string)
-}
-
 variable "tags" {
     description = "nat tags"
     type = map(any)  
